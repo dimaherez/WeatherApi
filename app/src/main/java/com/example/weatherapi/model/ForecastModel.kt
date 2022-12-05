@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 import androidx.annotation.Keep
 
 @Keep
-data class WeatherModel(
+data class ForecastModel(
     @SerializedName("daily")
     val daily: Daily,
     @SerializedName("daily_units")
